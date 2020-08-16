@@ -1,0 +1,18 @@
+create database twitter_tweets;
+
+create table profile_tweets(
+	username TEXT,
+	full_name TEXT,
+	twitter_url TEXT PRIMARY KEY,
+	tweet_TEXT TEXT,
+	tweet_time TEXT,
+	number_of_likes TEXT,
+	no_of_retweets TEXT,
+	no_of_replies TEXT,
+	mentions TEXT,
+	no_of_mentions TEXT,
+	hashtags TEXT,
+	no_of_hashtags TEXT,
+	call_to_action TEXT,
+	image_url TEXT);
+
